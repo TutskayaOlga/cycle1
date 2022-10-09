@@ -7,6 +7,8 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
+        task9();
     }
     private static void task1() {
         System.out.println("ЗАДАЧА №1");
@@ -51,7 +53,7 @@ public class Main {
     private static void task6() {
         System.out.println("ЗАДАЧА №6");
         System.out.println(" ");
-        for (int i = 0; i < 99; i = i + 7){
+        for (int i = 1; i < 99; i = i + 7){
             System.out.println(i);
         }
         System.out.println(" ");
@@ -63,6 +65,23 @@ public class Main {
         for (int a = i; a < 513; a = a * 2){
             System.out.println(a);
         }
+        System.out.println(" ");
+    }
+    private static void task8() {
+        System.out.println("ЗАДАЧА №8");
+        System.out.println(" ");
+        int salary = 29000;
+        int total = 0;
+        for (int i = 0; i<12; i++){
+            total = total + salary;
+            int i1 = i + 1;
+            //Не понимаю, как сделать так, чтобы первым месяцем не был 0
+            System.out.println("Месяц " + i1 + ", сумма накоплений равна " + total + " рублей. ");
+        }
+        System.out.println(" ");
+}
+    private static void task9() {
+        System.out.println("ЗАДАЧА №9");
         System.out.println(" ");
     }
 }
