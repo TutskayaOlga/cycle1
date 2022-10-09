@@ -72,7 +72,7 @@ public class Main {
         System.out.println(" ");
         int salary = 29000;
         int total = 0;
-        for (int i = 0; i<12; i++){
+        for (int i = 1; i<13; i++){
             total = total + salary;
             int i1 = i + 1;
             //Не понимаю, как сделать так, чтобы первым месяцем не был 0
@@ -82,6 +82,15 @@ public class Main {
 }
     private static void task9() {
         System.out.println("ЗАДАЧА №9");
+        System.out.println(" ");
+        int salary = 29000;
+        int total = 0;
+        for (int i = 1; i<13; i++){
+            total = total + salary;
+            total = total + total/100;
+            //Не понимаю, как сделать так, чтобы первым месяцем не был 0
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей. ");
+        }
         System.out.println(" ");
     }
 }
