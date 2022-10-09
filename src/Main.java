@@ -59,6 +59,11 @@ public class Main {
     private static void task7() {
         System.out.println("ЗАДАЧА №7");
         System.out.println(" ");
+        int i = 1;
+        for (int a = i; a < 513; a = a * 2){
+            System.out.println(a);
+        }
+        System.out.println(" ");
     }
 }
 
